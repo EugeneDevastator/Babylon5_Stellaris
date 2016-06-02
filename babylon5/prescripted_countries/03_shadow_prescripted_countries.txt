@@ -1,0 +1,61 @@
+shadow = {
+	name = "Sha'dow Matriarchat"
+	spawn_enabled = always # yes / no / always
+	
+	name_list = "SHADOW1"
+	ship_prefix = "SSS"
+	
+	species_name = "Sha'de"
+	species_plural = "Sha'des"
+	species_adjective = "Sha'den"
+	species_class = "ART"
+	trait="trait_strong"
+	trait="trait_enduring"
+	trait="trait_nomadic"
+	trait="trait_solitary"
+	# portrait = "rep2"
+	portrait = "art17"
+	adjective = "Sha'den"
+	
+	government="martial_empire"
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_militarist"
+
+	flags = { shadowstart_1 }
+	
+	weapon="tech_lasers_3"
+	ftl=warp
+	
+	planet_name="Za'ha'dum"
+	planet_class="pc_desert"
+	system_name="Za'ha"
+	
+	graphical_culture="avian_01"
+	city_graphical_culture="arthropoid_01"
+	
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="pattern_01.dds"
+		}
+		colors={
+			"black"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+		
+	ruler={
+		gender=female
+		name="Daha'tme"
+		portrait="art17"
+		texture=0
+		hair=0
+		clothes=0
+	}
+}

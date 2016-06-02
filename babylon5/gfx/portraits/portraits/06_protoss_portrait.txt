@@ -1,0 +1,108 @@
+portraits = {
+	protoss_tassadar = { texturefile = "gfx/portraits/protoss/tassadar.dds"}
+	protoss_zeratul = { texturefile = "gfx/portraits/protoss/zeratul.dds"}
+	protoss_selendis = { texturefile = "gfx/portraits/protoss/selendis.dds"}
+	protoss_templar = { texturefile = "gfx/portraits/protoss/high_templar.dds"}
+	protoss_civilian = { texturefile = "gfx/portraits/protoss/civilian.dds"}
+	protoss_zealot = { texturefile = "gfx/portraits/protoss/zealot.dds"}
+}
+
+portrait_groups = {
+	protoss = {
+		default = protoss_tassadar
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					protoss_tassadar
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					rep2
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					rep2
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					protoss_templar
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				portraits = {
+					protoss_zealot
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					protoss_zealot
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				portraits = {
+					protoss_selendis
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				portraits = {
+					protoss_templar
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				portraits = {
+					protoss_tassadar
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					protoss_tassadar
+				}
+			}
+		}
+		
+		
+	}
+}

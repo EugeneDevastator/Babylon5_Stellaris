@@ -1,0 +1,62 @@
+narn = {
+	name = "Narn regime"
+	spawn_enabled = always # yes / no / always
+	
+	name_list = "MAM1"
+	ship_prefix = "NSW"
+	
+	species_name = "Narn"
+	species_plural = "Narns"
+	species_adjective = "Narn"
+	species_class = "REP"
+	trait="trait_agrarian"
+	trait="trait_strong"
+	trait="trait_repugnant"
+	# portrait = "rep2"
+	portrait = "narn"
+	adjective = "Narn"
+	
+	government="theocratic_oligarchy"
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_spiritualist"
+
+	flags = { narnstart_1 }
+	
+	weapon="tech_lasers_1"
+	ftl=hyperdrive
+	
+	planet_name = "Narn prime"
+	planet_class = "pc_tropical"
+	system_name = "Narn"
+	
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"dark_brown"
+			"null"
+			"null"
+		}
+	}
+
+	
+	ruler={
+		gender=male
+		name="G'kar of G'Quan"
+		portrait="narn_gkar"
+		texture=0
+		hair=0
+		clothes=0
+	}
+}

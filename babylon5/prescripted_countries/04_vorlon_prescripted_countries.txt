@@ -1,0 +1,66 @@
+vorlon = {
+	name = "Vorlon Empire"
+	spawn_enabled = always # yes / no / always
+	
+	name_list = "VORLON1"
+	ship_prefix = "VSV"
+	
+	species_name = "Vorlon"
+	species_plural = "Vorlons"
+	species_adjective = "Vorlan"
+	species_class = "MOL"
+	trait="trait_intelligent"
+	trait="trait_natural_physicists"
+	trait="trait_slow_breeders"
+	# portrait = "rep2"
+	portrait = "vorlon"
+	adjective = "Vorlan"
+	
+	government="ai_overlordship"
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_materialist"
+
+	flags = { vorlonstart_1 }
+	
+	weapon="tech_plasma_1"
+	ftl=wormhole
+	
+	planet_name = "Vor prime"
+	planet_class = "pc_nuked"
+	system_name = "Vorlon"
+	
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="fungoid_01"
+	
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_21.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"green"
+			"teal"
+			"null"
+			"null"
+		}
+	}
+	#leader = {
+	#	name = "Dolores Muwanga"
+	#	class = ruler
+	#	portrait = "human_female_05"
+	#	experience = 1200.0
+	#}
+	
+	ruler={
+		gender=male
+		name="Kosh Naranek"
+		portrait="vorlon_kosh"
+		texture=0
+		hair=0
+		clothes=0
+	}
+}

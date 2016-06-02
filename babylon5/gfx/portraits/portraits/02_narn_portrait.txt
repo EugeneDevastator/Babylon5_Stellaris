@@ -1,0 +1,107 @@
+portraits = {
+	narn_gkar = { texturefile = "gfx/portraits/narn/gkar.dds"}
+#	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ.dds"}
+#	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil.dds"}
+#	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm.dds"}
+#	narn_gov = { texturefile = "gfx/portraits/narn/narn_gov.dds"}
+#	narn_sci = { texturefile = "gfx/portraits/narn/narn_sci.dds"}
+}
+portrait_groups = {
+	narn = {
+		default = narn_gkar
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					narn_gkar
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					rep2
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					rep2
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					rep2
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				portraits = {
+					rep2
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					rep2
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				portraits = {
+					rep2
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				portraits = {
+					rep2
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				portraits = {
+					narn_gkar
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					narn_gkar
+				}
+			}
+		}
+		
+		
+	}
+}

@@ -1,0 +1,59 @@
+minbari = {
+	name = "Minbari Federation"
+	spawn_enabled = always # yes / no / always
+	
+	name_list = "MINBARI1"
+	ship_prefix = "MSS"
+	
+	species_name = "Minbari"
+	species_plural = "Minbari"
+	species_adjective = "Minbar"
+	species_class = "MAM"
+	trait="trait_intelligent"
+	trait="trait_charismatic"
+	trait="trait_slow_breeders"
+	portrait = "minbari"
+	adjective = "Minbar"
+	
+	government="peaceful_bureaucracy"
+	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_spiritualist"
+
+	flags = { minbaristart_1 }
+	
+	weapon="tech_lasers_4"
+	ftl=hyperdrive
+	
+	planet_name="Minbar Prime"
+	planet_class="pc_continental"
+	system_name = "Minbar"
+	
+	graphical_culture="fungoid_01"
+	city_graphical_culture="avian_01"
+	
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"pink"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+
+	ruler={
+		gender=female
+		name="Delenn Furlan"
+		portrait="minbari_delenn"
+		texture=0
+		hair=2
+		clothes=0
+	}
+}
