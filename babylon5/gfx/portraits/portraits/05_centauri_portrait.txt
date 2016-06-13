@@ -11,15 +11,31 @@ portrait_groups = {
 		default = human_male_02
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
 				portraits = {
 					centauri_londo
 				}
 			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					human_female_02
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
 		}		
 		
 		#species scope
 		species = { #generic portrait for a species
-			set = {
+			add = {
 				portraits = {
 					human_female_02
 					human_male_02
@@ -39,59 +55,17 @@ portrait_groups = {
 		
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
-			set = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					human_female_02
+				}
+			}
+			add = {
 				trigger = {
 					gender = male
-				}
-				portraits = {
-					human_female_02
-					human_male_02
-				}
-			}
-			
-			set = {
-				trigger = {
-					leader_class = general
-				}
-				portraits = {
-					human_female_02
-					human_male_02
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = admiral
-				}
-				portraits = {
-					human_female_02
-					human_male_02
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = scientist
-				}
-				portraits = {
-					human_female_02
-					human_male_02
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = governor
-				}
-				portraits = {
-					human_female_02
-					human_male_02
-				}
-			}
-			
-			add = {
-				trigger = {
-					leader_class = ruler
 				}
 				portraits = {
 					centauri_londo
@@ -103,12 +77,21 @@ portrait_groups = {
 		#leader scope 
 		ruler = {
 			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					human_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
 				portraits = {
 					centauri_londo
 				}
 			}
 		}
-		
-		
 	}
 }

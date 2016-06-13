@@ -14,14 +14,14 @@ shadow = {
 	trait="trait_nomadic"
 	trait="trait_solitary"
 	# portrait = "rep2"
-	portrait = "art17"
+	portrait = "shadow"
 	adjective = "Sha'den"
 	
 	government="martial_empire"
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_militarist"
 
-	flags = { shadowstart_1 }
+	flags = { shadowstart_1 shadow_cpu }
 	
 	weapon="tech_lasers_3"
 	ftl=warp
@@ -53,8 +53,8 @@ shadow = {
 	ruler={
 		gender=female
 		name="Daha'tme"
-		portrait="art17"
-		texture=0
+		portrait="shadow_mother"
+		texture=3
 		hair=0
 		clothes=0
 	}

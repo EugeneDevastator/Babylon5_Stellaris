@@ -25,12 +25,11 @@ country_event = {
 						
 						}
 
-					solar_system = { 
-					every_system_planet = {
-							destroy_fleet = spaceport
-							}
-										
-									}	
+#					solar_system = { 
+#					every_system_planet = {
+#							destroy_fleet = spaceport
+#							}										
+#								}	
 								}
 
 

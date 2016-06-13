@@ -20,7 +20,7 @@ vorlon = {
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_materialist"
 
-	flags = { vorlonstart_1 }
+	flags = { vorlonstart_1 vorlon_cpu }
 	
 	weapon="tech_plasma_1"
 	ftl=wormhole
