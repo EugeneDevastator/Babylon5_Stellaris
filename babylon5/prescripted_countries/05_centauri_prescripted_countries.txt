@@ -1,5 +1,5 @@
 centauri = {
-	name = "Centauri republic"
+	name = "Centauri Republic"
 	spawn_enabled = always # yes / no / always
 	
 	name_list = "CENTAURI1"
@@ -26,7 +26,7 @@ centauri = {
 	weapon="tech_mass_drivers_1"
 	ftl=wormhole
 	
-	planet_name = "Centauri prime"
+	planet_name = "Centauri Prime"
 	planet_class="pc_continental"
 	system_name = "Alpha Centauri"
 	

@@ -1,0 +1,203 @@
+NARN1 = {
+	ship_names = {
+		generic = {
+		}
+
+		corvette = {
+			"G'Toleth"
+		}
+		
+		constructor = {
+			"To'Romak"
+		}
+		
+		colonizer = {
+			"Refugee Shuttle"
+		}
+
+		destroyer = {
+			"Tal'lo" 
+		}
+		
+		cruiser = {
+			"Ga'wren"
+		}
+		
+		battleship = {
+			"G'Quan"
+		}
+		
+		science = {
+			"Tik'esh"
+		}
+
+		orbital_station = {
+			"Wings of G'Lan" "Ma'Kan"
+		}
+
+		mining_station = {
+			
+		}
+
+		research_station = {
+			
+		}
+
+		wormhole_station = {
+			
+		}
+
+		terraform_station = {
+			
+		}
+
+		observation_station = {
+			
+		}
+
+		outpost_station = {
+			sequential_name = "Sector %N%"
+		}
+		
+		transport = {
+			sequential_name = "%O% Freedom Fighters"			
+		}
+		
+		military_station_small = {
+		}
+		
+		military_station_medium = {
+		}
+		
+		military_station_large = {
+		}
+	}
+	
+		
+	fleet_names = {
+		random_names = { 
+		"Shears" "Bleaks" "Penumbra" "Occluder" "Obscurity-1" "Darkmares"
+		}
+		sequential_name = "%O% Freedom Fleet"
+	}
+
+
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Regime Defense" 
+		}
+			
+		assault_army = {
+			sequential_name = "Liberation Force %C%"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Sacrifice"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Warriors"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Tech Brigade"
+		}
+		
+		android_army = {
+			sequential_name = "%O% "
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Sha'de Psyborgs"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Ghathanothoa"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Sha'dare Za'Ha"
+		}
+	}
+
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				#Actual Babylon 5 References
+				"Quadrant 14" "Quadrant 34" Shi Dross Zok "Hilak VII" Moktoke
+			}
+			sequential_name = "Sector %N%" "Quadrant %N%"
+		}
+		
+		pc_desert = {
+			names = { "Dum"
+			}
+		}
+		
+		pc_tropical = {
+			names = { "Ton"
+			}
+		}
+		
+		pc_arid = {
+			names = { "Dam"
+			}
+		}
+		
+		pc_continental = {
+			names = { "Pun"
+			}
+		}
+		
+		pc_ocean = {
+			names = { "Nol"
+			}
+		}
+		
+		pc_tundra = {
+			names = { "Tun"
+			}
+		}
+		
+		pc_arctic = {
+			names = { "Uuk"
+			}
+		}
+		
+	}
+
+	
+	character_names = {
+		default = {
+			#A complete name
+			#full_names = {  
+			#	"Warleader G'Sten" "G'Kar of G'Quan" "Attache Na'Toth" "Ambassador G'Kar" "Councillor Shu'Toth"
+			#}
+			
+			# Always combined with a second name
+			first_names_male = {
+				"G'" "J'" "Ki'" "Kha'" "Du'" "Ko'" "N'" "Jha'"
+			}
+			first_names_female = {
+				"G'" "J'" "Na'" "No'" "Ri'" "R'" "Li'"
+			}
+			# Always combined with a first name			
+			second_names = { 
+				Tal Toth Denn Oran Ki Kenn Karr Del Dor Deem Meel Tem Korath Torat Lemis Doran Desar Kaan Teel Teeh Tor Torleth Ran Rem Ros 
+				Shen Shi Two Tak Ras Tolan Darr Kon Pel Lai Sten Toth Doru Terg Pla Li Wolv Woa Was Wan Wam Wel Shi Sher Sret Scat Scor Scken
+				Ja Plu Pos Penn Pos Pass Purr Thak Ri Ro Rou Rep Ras Laq Rog Dath Grath Toth Kae Kar
+ 			}
+			
+			regnal_first_names = {
+				 Warleader Prophet Warrior Deathwalker Leader Councillor Ambassador 
+			}
+			regnal_second_names = { 
+				"G'Kar" "Na'Toth" "G'Sten" "Shu'Toth"
+			}
+		}
+	}
+}
+
