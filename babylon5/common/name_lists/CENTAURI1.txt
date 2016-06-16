@@ -1,4 +1,4 @@
-﻿CENTAURI1 = {
+CENTAURI1 = {
 
 	ship_names = {
 
@@ -86,14 +86,14 @@
 	}
 
 	fleet_names = {
-		random_names = {
-			"Strike Force Manticore" "Strike Force Basilisk" "Strike Force Chimera" "Strike Force Minotaur" "Strike Force Gorgon" "Strike Force Dragon"
-			"Strike Force Wyvern" "Strike Force Enfield" "Strike Force Centaur" "Strike Force Pegasus" "Strike Force Kraken" "Strike Force Charybdis"
-			"Strike Force Cerberus" "Strike Force Cyclops" "Strike Force Griffin" "Strike Force Phoenix" "Strike Force Scylla" "Strike Force Titan"
-			"Strike Force Hydra" "Strike Force Werewolf" "Strike Force Behemoth" "Strike Force Medusa" "Strike Force Sphinx" "Strike Force Hippogriff"
-			"Strike Force Garuda"
-		}
-		sequential_name = "%O% Strike Force"
+		#random_names = {
+		#	"Strike Force Manticore" "Strike Force Basilisk" "Strike Force Chimera" "Strike Force Minotaur" "Strike Force Gorgon" "Strike Force Dragon"
+		#	"Strike Force Wyvern" "Strike Force Enfield" "Strike Force Centaur" "Strike Force Pegasus" "Strike Force Kraken" "Strike Force Charybdis"
+		#	"Strike Force Cerberus" "Strike Force Cyclops" "Strike Force Griffin" "Strike Force Phoenix" "Strike Force Scylla" "Strike Force Titan"
+		#	"Strike Force Hydra" "Strike Force Werewolf" "Strike Force Behemoth" "Strike Force Medusa" "Strike Force Sphinx" "Strike Force Hippogriff"
+		#	"Strike Force Garuda"
+		#}
+		sequential_name = "Strike Force %C%"
 	}
 	
 	army_names = {
@@ -154,6 +154,9 @@
 				Rattenbury Grinstead Leffingwell Durkheim Treadway Hoxworth "Hinckley's Hope" Tronchet Knutton Corregan 
 				Mullineux "Fitzroy's World" "Schimmel's World" Lockney
 			}
+			# Check https://forum.paradoxplaza.com/forum/index.php?threads/v1-0-0-9b5a-name-lists-random-names-blocked-by-sequential-ones.926983/
+			# Regarding Sequential Names overriding random name usage. This was left as a placeholder. Unable to find specifics for the exact Syntax of the sequential_name operators
+			#sequential_name = "Gorash %N%"
 		}
 		
 		pc_desert = {
@@ -178,6 +181,7 @@
 			names = {
 				Destiny Bastion Citadel Acropolis Delphi Harmony Dawnlight Myndos Thebes Camelot Arcadia Abbassus Ashur
 			}
+			sequential_name = "Ragesh %C%"
 		}
 		
 		pc_gaia = {
@@ -230,7 +234,7 @@
 				"de Vargas" Ibanez Moralez Riveros Rosario Velazco Torres Quesada Saldana Salazar Ortega Ortiz Solano Romero
 			}
 			regnal_first_names_male = {
-				Londo Vir Antono Ricardo Javier Ernesto Gerardo
+				Londo Vir Antono Ricardo Javier Ernesto Gerardo Turhan
 			}
 			regnal_first_names_female = {
 				Antonia Carla Carmen Catalina Dolores Martina Julieta Antonella Renata

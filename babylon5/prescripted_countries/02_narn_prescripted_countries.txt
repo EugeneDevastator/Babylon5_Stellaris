@@ -1,9 +1,9 @@
 narn = {
-	name = "Narn regime"
+	name = "Narn Regime"
 	spawn_enabled = always # yes / no / always
 	
-	name_list = "MAM1"
-	ship_prefix = "NSW"
+	name_list = "NARN1"
+	ship_prefix = ""
 	
 	species_name = "Narn"
 	species_plural = "Narns"
@@ -26,9 +26,10 @@ narn = {
 	weapon="tech_lasers_1"
 	ftl=hyperdrive
 	
-	planet_name = "Narn prime"
+	planet_name = "Narn"
 	planet_class = "pc_tropical"
-	system_name = "Narn"
+	#Actual name of system containing Narn Homeworld
+	system_name = "Sector 160"
 	
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
