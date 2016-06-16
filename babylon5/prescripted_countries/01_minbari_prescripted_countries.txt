@@ -19,7 +19,7 @@ minbari = {
 	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 
-	flags = { minbaristart_1 }
+	flags = { minbaristart_1 minbari_cpu }
 	
 	weapon="tech_lasers_4"
 	ftl=hyperdrive
