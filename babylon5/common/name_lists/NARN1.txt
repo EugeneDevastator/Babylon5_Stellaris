@@ -1,87 +1,81 @@
+### Narn Regime
 NARN1 = {
+### SHIPS
+	
+	randomized = no
 	ship_names = {
+	
 		generic = {
 		}
 
 		corvette = {
-			"G'Toleth"
+			"Shi'Toleth" "Shi'Dajar" "Shi'Dojenn" "Shi'Monas" "Shi'Hilak" "Shi'Hyrule"
 		}
 		
-		constructor = {
-			"To'Romak"
-		}
-		
-		colonizer = {
-			"Refugee Shuttle"
-		}
-
 		destroyer = {
-			"Tal'lo" 
+			"Tal'lo" "Tal'Lok" "Tal'lee" "Tal'Lai" "Tal'Let" "Tal'Leto" "Tal'Lufek" "Tal'Lleg"
 		}
 		
 		cruiser = {
-			"Ga'wren"
+			"Ga'Wren" "Ga'Wos" "Ga'Whe" "Ga'Wonosh" "Ga'Wela" "Ga'Wre'j" "Ga'Ww
 		}
 		
 		battleship = {
-			"G'Quan"
+			"G'Quan" "G'Qall" "G'Qas" "G'Qora" "G'Quaj" "G'Quatar" "G'Qom"
 		}
 		
 		science = {
-			"Tik'esh"
+			"Tik'esh" "Tik'senas" "Tik'solan" "Tik'madri" "Tik'hor" "Tik'bak" "Tik'oon"
 		}
 
-		orbital_station = {
-			"Wings of G'Lan" "Ma'Kan"
+		colonizer = {
+			"Va'Ren" "Va'Ros" "Va'Rog" "Va'Rep" "Va'Rossak"
 		}
-
-		mining_station = {
-			
+		
+		constructor = {
+			"To'Romak" "To'Rodaj" "To'Rawk" "To'Rone" "To'Relas" "To'Remij" "To'Rossor"
 		}
-
-		research_station = {
-			
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { 
+			"Kai'ya" "Rhi'zner" "J'Odor" "Shi'Iz" 
 		}
-
-		wormhole_station = {
-			
-		}
-
-		terraform_station = {
-			
-		}
-
-		observation_station = {
-			
-		}
-
 		outpost_station = {
-			sequential_name = "Sector %N%"
+			random_names = {
+				"Wings of G'Lan" "Ma'Kan"
+			}
+			sequential_name = "Narn Outpost %R%"
 		}
 		
 		transport = {
-			sequential_name = "%O% Freedom Fighters"			
+			"T'Lek" "T'Amoth" "T'Dalour" "T'Oma" "T'Dar" "T'Jent"
 		}
 		
 		military_station_small = {
+			"N'Toma" "N'Taree" "N'Talas" "N'Tos"
 		}
 		
 		military_station_medium = {
+			"N'Let" "N'Lien" "N'Laq" "N'Lon" 
 		}
 		
 		military_station_large = {
+			"N'Quan" "N'Qar" "N'Qi" "N'Quat" "N'Quor" "N'Qath"
 		}
 	}
 	
-		
+### Fleets
+	
 	fleet_names = {
-		random_names = { 
-		"Shears" "Bleaks" "Penumbra" "Occluder" "Obscurity-1" "Darkmares"
-		}
-		sequential_name = "%O% Freedom Fleet"
+		random_names = { }
+		sequential_name = "%O% Circle Battlefleet"
 	}
 
-
+### Armies
+	
 	army_names = {
 	
 		defense_army = {
@@ -101,26 +95,27 @@ NARN1 = {
 		}
 		
 		robotic_army = {
-			sequential_name = "%O% Tech Brigade"
+			sequential_name = "%O% Drone Brigade"
 		}
 		
 		android_army = {
-			sequential_name = "%O% "
+			sequential_name = "%O% Droid Army"
 		}
 		
 		psionic_army = {
-			sequential_name = "%O% Sha'de Psyborgs"
+			sequential_name = "%O% Telepaths"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%O% Ghathanothoa"
+			sequential_name = "%O% G'Quan Warriors"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "%O% Sha'dare Za'Ha"
+			sequential_name = "%O% Narn Supersoldiers"
 		}
 	}
 
+### PLANETS
 	
 	planet_names = {
 	
@@ -128,61 +123,68 @@ NARN1 = {
 			names = {
 				#Actual Babylon 5 References
 				"Quadrant 14" "Quadrant 34" Shi Dross Zok "Hilak VII" Moktoke
+				"Sector 19" "Sector 21" "Sector 29" "Sector 29" "Sector 39" "Sector 40" "Sector 90" "Sector 127"
+				"Sector 158" "Sector 157" "Sector 160" "Sector 305" "Sigma 957" "Akdor" "Sh'lassen Sector"
 			}
-			sequential_name = "Sector %N%" "Quadrant %N%"
+			#sequential_name = "Sector %N%" "Quadrant %N%"
 		}
 		
 		pc_desert = {
-			names = { "Dum"
+			names = { 
 			}
 		}
 		
 		pc_tropical = {
-			names = { "Ton"
+			names = { 
 			}
 		}
 		
 		pc_arid = {
-			names = { "Dam"
+			names = { 
 			}
 		}
 		
 		pc_continental = {
-			names = { "Pun"
+			names = { 
 			}
 		}
 		
 		pc_ocean = {
-			names = { "Nol"
+			names = { 
 			}
 		}
 		
 		pc_tundra = {
-			names = { "Tun"
+			names = { 
 			}
 		}
 		
 		pc_arctic = {
-			names = { "Uuk"
+			names = { 
 			}
 		}
 		
 	}
 
+### Characters
 	
 	character_names = {
 		default = {
-			#A complete name
+			
+			#A complete name			
 			#full_names = {  
 			#	"Warleader G'Sten" "G'Kar of G'Quan" "Attache Na'Toth" "Ambassador G'Kar" "Councillor Shu'Toth"
 			#}
 			
 			# Always combined with a second name
+			# NOTE: Due to the use of first and last names to generate more dynamic names, 
+			# there will be a space between the Prefix (G') and Suffix (Kar). This is a minor cosmetic issue.
 			first_names_male = {
 				"G'" "J'" "Ki'" "Kha'" "Du'" "Ko'" "N'" "Jha'"
 			}
+			
 			first_names_female = {
-				"G'" "J'" "Na'" "No'" "Ri'" "R'" "Li'"
+				"Na'" "No'" "Ri'" "R'" "Li'" "Va'"
 			}
 			# Always combined with a first name			
 			second_names = { 
