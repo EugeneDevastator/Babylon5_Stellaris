@@ -1,6 +1,10 @@
+
+
+namespace = bablyon
+
 #Vorlon Init
 country_event = {
-	id = gstart.1
+	id = bablyon.555001
 	show_sound = event_laboratory_sound
 	location = root
 	hide_window = yes
@@ -40,7 +44,7 @@ country_event = {
 
 #Shadow init
 country_event = {
-	id = gstart.2
+	id = bablyon.555002
 	show_sound = event_laboratory_sound
 	location = root
 	hide_window = yes

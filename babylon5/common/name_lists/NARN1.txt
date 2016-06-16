@@ -1,4 +1,4 @@
-### Narn Regime
+﻿### Narn Regime
 NARN1 = {
 ### SHIPS
 	
@@ -17,7 +17,7 @@ NARN1 = {
 		}
 		
 		cruiser = {
-			"Ga'Wren" "Ga'Wos" "Ga'Whe" "Ga'Wonosh" "Ga'Wela" "Ga'Wre'j" "Ga'Ww
+			"Ga'Wren" "Ga'Wos" "Ga'Whe" "Ga'Wonosh" "Ga'Wela" "Ga'Wre'j" "Ga'Ww"
 		}
 		
 		battleship = {
@@ -44,10 +44,10 @@ NARN1 = {
 			"Kai'ya" "Rhi'zner" "J'Odor" "Shi'Iz" 
 		}
 		outpost_station = {
-			random_names = {
-				"Wings of G'Lan" "Ma'Kan"
-			}
-			sequential_name = "Narn Outpost %R%"
+		#	random_names = {
+		#		"Wings of G'Lan" "Ma'Kan"
+		#	}
+		#	sequential_name = "Narn Outpost %O%"
 		}
 		
 		transport = {
@@ -202,4 +202,3 @@ NARN1 = {
 		}
 	}
 }
-
