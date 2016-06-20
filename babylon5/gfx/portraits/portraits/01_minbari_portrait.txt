@@ -1,5 +1,6 @@
 portraits = {
 	minbari_delenn = { texturefile = "gfx/portraits/minbari/delenn.dds"}
+	minbari_dukhat = { texturefile = "gfx/portraits/minbari/dukhat.dds"}
 #	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ.dds"}
 #	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil.dds"}
 #	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm.dds"}
@@ -8,14 +9,14 @@ portraits = {
 }
 portrait_groups = {
 	minbari = {
-		default = human_female_04
+		default = minbari_delenn
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				trigger = {
 					ruler = { gender = male }
 				}
 				portraits = {
-					human_male_01
+					minbari_dukhat
 				}
 			}
 			add = {
