@@ -1,19 +1,18 @@
 portraits = {
-	protoss_tassadar = { texturefile = "gfx/portraits/protoss/tassadar.dds"}
-	protoss_zeratul = { texturefile = "gfx/portraits/protoss/zeratul.dds"}
-	protoss_selendis = { texturefile = "gfx/portraits/protoss/selendis.dds"}
-	protoss_templar = { texturefile = "gfx/portraits/protoss/high_templar.dds"}
-	protoss_civilian = { texturefile = "gfx/portraits/protoss/civilian.dds"}
-	protoss_zealot = { texturefile = "gfx/portraits/protoss/zealot.dds"}
+	shadow_mother = { texturefile = "gfx/portraits/shadow/mother.dds"}
+#	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ.dds"}
+#	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil.dds"}
+#	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm.dds"}
+#	narn_gov = { texturefile = "gfx/portraits/narn/narn_gov.dds"}
+#	narn_sci = { texturefile = "gfx/portraits/narn/narn_sci.dds"}
 }
-
 portrait_groups = {
-	protoss = {
-		default = protoss_tassadar
+	shadow = {
+		default = shadow_mother
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				portraits = {
-					protoss_tassadar
+					shadow_mother
 				}
 			}
 		}		
@@ -22,7 +21,7 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			set = {
 				portraits = {
-					rep2
+					mol14
 				}
 			}
 		}		
@@ -31,7 +30,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					rep2
+					mol14
 				}
 			}
 		}
@@ -43,7 +42,7 @@ portrait_groups = {
 					gender = male
 				}
 				portraits = {
-					protoss_templar
+					mol14
 				}
 			}
 			
@@ -52,7 +51,7 @@ portrait_groups = {
 					leader_class = general
 				}
 				portraits = {
-					protoss_zealot
+					mol14
 				}
 			}
 			
@@ -61,7 +60,7 @@ portrait_groups = {
 					leader_class = admiral
 				}
 				portraits = {
-					protoss_zealot
+					mol14
 				}
 			}
 			
@@ -70,7 +69,7 @@ portrait_groups = {
 					leader_class = scientist
 				}
 				portraits = {
-					protoss_selendis
+					mol14
 				}
 			}
 			
@@ -79,7 +78,7 @@ portrait_groups = {
 					leader_class = governor
 				}
 				portraits = {
-					protoss_templar
+					mol14
 				}
 			}
 			
@@ -88,7 +87,7 @@ portrait_groups = {
 					leader_class = ruler
 				}
 				portraits = {
-					protoss_tassadar
+					shadow_mother
 				}
 			}
 		}
@@ -98,7 +97,7 @@ portrait_groups = {
 		ruler = {
 			add = {
 				portraits = {
-					protoss_tassadar
+					shadow_mother
 				}
 			}
 		}

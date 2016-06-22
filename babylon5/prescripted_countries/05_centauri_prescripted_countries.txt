@@ -21,7 +21,7 @@ centauri = {
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 
-	flags = { centauristart_1 }
+	flags = { centauristart_1 centauri_cpu }
 	
 	weapon="tech_mass_drivers_1"
 	ftl=wormhole

@@ -1,4 +1,4 @@
-CENTAURI1 = {
+﻿CENTAURI1 = {
 
 	ship_names = {
 
@@ -58,10 +58,10 @@ CENTAURI1 = {
 		terraform_station = { }
 		observation_station = { }
 		outpost_station = {
-			random_names = {
-				"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider Bastion "Home Turf" Wide
-			}
-			sequential_name = "%O% Frontier Outpost"
+		#	random_names = {
+		#		"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider Bastion "Home Turf" Wide
+		#	}
+		#	sequential_name = "%O% Frontier Outpost"
 		}
 		
 		transport = {
@@ -181,7 +181,7 @@ CENTAURI1 = {
 			names = {
 				Destiny Bastion Citadel Acropolis Delphi Harmony Dawnlight Myndos Thebes Camelot Arcadia Abbassus Ashur
 			}
-			sequential_name = "Ragesh %C%"
+		#	sequential_name = "Ragesh %C%"
 		}
 		
 		pc_gaia = {

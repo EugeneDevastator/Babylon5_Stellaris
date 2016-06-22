@@ -1,9 +1,9 @@
 ﻿### Earth Alliance
-
 EARTH1 = {
 	randomized = no
 
 	ship_names = {
+	
 		generic = {
 			Mystic Naiad Nautilus Nebula Nimble "North Star" Nymph Obdurate Ocean Onward Oracle Paradox Paragon Pearl Peregrine Perseverance Marksman Rifleman Sniper Trident Trojan Trumpet Truncheon Typhoon Undaunted Venture Versatile Vigorous Viper Vivacious Winger Wizard Wyvern Wolfhound Devastator Warhammer Retribution Senator Tornado Infinity Usurper Utmost Valorous Whirlwind Athena Artemis Vigilance Decimator Indomitable Goliath Sentinel Brilliant Blazer Audacity Gallant Nova Shadow Allegiance Challenger Fearless Protector Guardian Victorious Courageous Defiance Valorous Azrael
 			Acheron Achilles Agamemnon Amphion Aquilon Argonaut Argus Ariel Aurora Avernus Bacchus Bucephalus Calliope Calypso Castor Charybdis Circe
@@ -31,8 +31,7 @@ EARTH1 = {
 			Proteus Pylades Serapis Stygian Tantalus Telemachus Theseus Thor Trajan Triton Venus Adamant Ardent Assail Austere Archon Adroit Aegis Anchor 
 			Corsair Banshee Enchantress Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord 
 			}
-		#sequential_name = "%O% Earthforce Space Corps"
-		}
+	
 		
 
 		corvette = {
@@ -114,10 +113,10 @@ EARTH1 = {
 		}
 		
 		outpost_station = {
-			#random_names = {
-			#	"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider Bastion "Home Turf" Wide
-			#}
-			sequential_name = "Earth Alliance Outpost %N%"
+		#	random_names = {
+		#		"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider Bastion "Home Turf" Wide
+		#	}
+		#	sequential_name = "Earth Alliance Outpost %O%"
 		}
 		
 		transport = {
@@ -127,29 +126,25 @@ EARTH1 = {
 		}
 
 		military_station_small = { 
-			Mrandom_names = {
 				"Military Station 1" "Military Station 2" "Military Station 3" "Military Station 4" "Military Station 5" "Military Station 6" "Military Station 7" "Military Station 8" "Military Station 9" "Military Station 10" "Military Station 11" "Military Station 12"
 				"Military Station 13" "Military Station 14" "Military Station 15" "Military Station 16" "Military Station 17" "Military Station 18" "Military Station 19" "Military Station 20" "Military Station 21" "Military Station 22" "Military Station 23"
 				"Military Station 24" "Military Station 25" "Military Station 26" "Military Station 27" "Military Station 28" "Military Station 29" "Military Station 30" "Military Station 31" "Military Station 32" "Military Station 33" "Military Station 34"
-			}
+		}
 		
 		military_station_medium = { 
-			random_names = { 
 				"Military Outpost 1" "Military Outpost 2" "Military Outpost 3" "Military Outpost 4" "Military Outpost 5" "Military Outpost 6" "Military Outpost 7" "Military Outpost 8" "Military Outpost 9" "Military Outpost 10" "Military Outpost 11" "Military Outpost 12" "Military Outpost 13" "Military Outpost 14" "Military Outpost 15" "Military Outpost 16" "Military Outpost 17" "Military Outpost 18" "Military Outpost 19" "Military Outpost 20" "Military Outpost 21" "Military Outpost 22" "Military Outpost 23" "Military Outpost 24" "Military Outpost 25" "Military Outpost 26" "Military Outpost 27" "Military Outpost 28" "Military Outpost 29" "Military Outpost 30" "Military Outpost 31" "Military Outpost 32" "Military Outpost 33" "Military Outpost 34" "Military Outpost 35" "Military Outpost 36" "Military Outpost 37" "Military Outpost 38" "Military Outpost 39" "Military Outpost 40"
-			}
 		}
 		
 		military_station_large = {
-			random_names = {
 				# Actual B5 Reference
-				"Aegis Orbital Defense Platform"
+				"Aegis Orbital Defense"
 				# Generic
-				"Citadel Orbital Defense Platform" "Albacore Orbital Defense Platform" "Gateway Orbital Defense Platform" "Vincent Orbital Defense Platform" "Babylon Orbital Defense Platform" "Caernavon Orbital Defense Platform" "Acre Orbital Defense Platform" "Pembroke Orbital Defense Platform" "Acheron Orbital Defense Platform" "Spithead Orbital Defense Platform" "Halifax Orbital Defense Platform" "Victoria Orbital Defense Platform" "Chatham Orbital Defense Platform" "Anchorage Orbital Defense Platform" "Scapa Flow Orbital Defense Platform" "Hampton Roads Orbital Defense Platform" "Brooklyn Orbital Defense Platform" "Norfolk Orbital Defense Platform" "Newport Orbital Defense Platform" "Guam Orbital Defense Platform" "Pensacola Orbital Defense Platform" "Vesuvius Orbital Defense Platform" "McKinley Orbital Defense Platform" "Everest Orbital Defense Platform" "Kilimanjaro Orbital Defense Platform" "Aconcagua Orbital Defense Platform" "Elbrus Orbital Defense Platform" "St. Helens Orbital Defense Platform" "Fuji Orbital Defense Platform" "Olympus Orbital Defense Platform" "Sinai Orbital Defense Platform" "Ambrose Orbital Defense Platform" "Bermuda Orbital Defense Platform" "Farpoint Orbital Defense Platform" "Blue Star Orbital Defense Platform" "Olympus Mons Orbital Defense Platform" "Tharsis Orbital Defense Platform" "Syrtis Orbital Defense Platform" "Blackham Orbital Defense Platform" "Fletcher Orbital Defense Platform" "Perry Orbital Defense Platform" "Butakov Orbital Defense Platform" "Morris Orbital Defense Platform" "Moorsom Orbital Defense Platform" "Hart Orbital Defense Platform" "Hargood Orbital Defense Platform" "Spruance Orbital Defense Platform" "Tanaka Orbital Defense Platform" "Halsey Orbital Defense Platform" "Turner Orbital Defense Platform" "Doria Orbital Defense Platform" "Tirpitz Orbital Defense Platform" "Cunningham Orbital Defense Platform" "Jellicoe Orbital Defense Platform" "Hipper Orbital Defense Platform" "Beatty Orbital Defense Platform" "Potemkin Orbital Defense Platform" "Durham Orbital Defense Platform" "Codrington Orbital Defense Platform" "Milne Orbital Defense Platform" "Laforey Orbital Defense Platform" "Tyler Orbital Defense Platform" "Hawke Orbital Defense Platform" "Yonai Orbital Defense Platform" "Pound Orbital Defense Platform" "King Orbital Defense Platform" "Crutchley Orbital Defense Platform" "Mountbatten Orbital Defense Platform" "Kountouriotis Orbital Defense Platform" "Kuznetsov Orbital Defense Platform" "Essen Orbital Defense Platform" "Kornilov Orbital Defense Platform" "Suffren Orbital Defense Platform" "Treville Orbital Defense Platform" "Villeneuve Orbital Defense Platform" "Grasse Orbital Defense Platform" "Byng Orbital Defense Platform" "Lezo Orbital Defense Platform"
-			}
+				"Citadel Orbital Defense" "Albacore Orbital Defense" "Gateway Orbital Defense" "Vincent Orbital Defense" "Babylon Orbital Defense" "Caernavon Orbital Defense" "Acre Orbital Defense" "Pembroke Orbital Defense" "Acheron Orbital Defense" "Spithead Orbital Defense" "Halifax Orbital Defense" "Victoria Orbital Defense" "Chatham Orbital Defense" "Anchorage Orbital Defense" "Scapa Flow Orbital Defense" "Hampton Orbital Defense" "Brooklyn Orbital Defense" "Norfolk Orbital Defense" "Newport Orbital Defense" "Guam Orbital Defense" "Pensacola Orbital Defense" "Vesuvius Orbital Defense" "McKinley Orbital Defense" "Everest Orbital Defense" "Kilimanjaro Bastion" "Aconcagua Orbital Defense" "Elbrus Orbital Defense" "St. Helens Orbital Defense" "Fuji Orbital Defense" "Olympus Orbital Defense" "Sinai Orbital Defense" "Ambrose Orbital Defense" "Bermuda Orbital Defense" "Farpoint Orbital Defense" "Blue Star Orbital Defense" "Olympus Orbital Fortress" "Tharsis Orbital Defense" "Syrtis Orbital Defense" "Blackham Orbital Defense" "Fletcher Orbital Defense" "Perry Orbital Defense" "Butakov Orbital Defense" "Morris Orbital Defense" "Moorsom Orbital Defense" "Hart Orbital Defense" "Hargood Orbital Defense" "Spruance Orbital Defense" "Tanaka Orbital Defense" "Halsey Orbital Defense" "Turner Orbital Defense" "Doria Orbital Defense" "Tirpitz Orbital Defense" "Cunningham Orbital Defense" "Jellicoe Orbital Defense" "Hipper Orbital Defense" "Beatty Orbital Defense" "Potemkin Orbital Defense" "Durham Orbital Defense" "Codrington Orbital Defense" "Milne Orbital Defense" "Laforey Orbital Defense" "Tyler Orbital Defense" "Hawke Orbital Defense" "Yonai Orbital Defense" "Pound Orbital Defense" "King Orbital Defense" "Crutchley Orbital Defense" "Mountbatten Fortress" "Kountouriotis Fortress" "Kuznetsov Orbital Defense" "Essen Orbital Defense" "Kornilov Orbital Defense" "Suffren Orbital Defense" "Treville Orbital Defense" "Villeneuve Orbital Defense" "Grasse Orbital Defense" "Byng Orbital Defense" "Lezo Orbital Defense"
 		}
 	}
 
 	fleet_names = {
+
 		# The Earthforce Space Corps, or simply 'Fleet' is the backbone of Earthforce, encompassing all of the space borne military assets of the Earth Alliance
 		sequential_name = "%O% Alliance Fleet"
 	}
@@ -269,8 +264,8 @@ EARTH1 = {
 		#		"Luis Santiago" "Morgan Clark" "Elizabeth Levy" "Marie Crane" 
 		#		# B5 - Earthforce Officers
 		#		"Commander Jeffrey Sinclair" "Jeffrey Sinclair" "Captain John Sheridan" 
-			}
-		}
+		#	}
+		#}
 		
 		names2 = {
 			weight = 40
