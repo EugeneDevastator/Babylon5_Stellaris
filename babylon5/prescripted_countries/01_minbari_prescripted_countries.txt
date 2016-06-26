@@ -15,12 +15,15 @@ minbari = {
 	portrait = "minbari"
 	adjective = "Minbar"
 	
+	species_bio "The Minbari are a deeply spiritual, highly ritualistic and disciplined people. They seek conformity and enlightenment above all. Honor is everything and they generally do not lie, except to save another or to help another save face. From birth to adulthood, they are taught to be selfless and learn the importance of service to all aspects of life. Working for generations, they create a legacy for themselves and are ready to sacrifice their lives, their blood, or their honor for others."
+	
 	government="peaceful_bureaucracy"
 	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 
-	flags = { minbaristart_1 minbari_cpu }
+	flags = { minbaristart_1 minbari_cpu}
 	
+	#not sure if you can give tech 4 lasers @ gamestart without giving the relevant techs first through an empire start event... Can it be defined as a valid starting tech?
 	weapon="tech_lasers_4"
 	ftl=hyperdrive
 	

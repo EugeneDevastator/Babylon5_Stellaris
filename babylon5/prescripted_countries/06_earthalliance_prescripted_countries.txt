@@ -1,4 +1,4 @@
-"Earth Alliance" = {
+earthalliance = {
 	name_list="EARTH1"
 	ship_prefix="EAS"
 	species_name="Human"
