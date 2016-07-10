@@ -2,3 +2,10 @@
 
  BBL:0 "Babylon 5 Nations"
 
+ALLIANCE_NAME_01:0 "League of Non-Aligned Worlds"
+ALLIANCE_NAME_02:0 "Army of Light"
+ALLIANCE_NAME_03:0 "Interstellar Alliance"
+ALLIANCE_NAME_04:0 ""
+
+#ALLIANCE_NAME:0 "$PREFIX$ $NAME$"
+ALLIANCE_NAME:0 "$NAME$"
