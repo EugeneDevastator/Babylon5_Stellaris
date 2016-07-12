@@ -6,4 +6,4 @@ tags={
 }
 picture="babylon5.PNG"
 remote_file_id="695406667"
-supported_version="1.1.0"
+supported_version="1.2.*"
