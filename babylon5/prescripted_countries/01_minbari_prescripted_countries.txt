@@ -24,7 +24,7 @@ minbari = {
 	flags = { minbaristart_1 minbari_cpu}
 	
 	#not sure if you can give tech 4 lasers @ gamestart without giving the relevant techs first through an empire start event... Can it be defined as a valid starting tech?
-	weapon="tech_lasers_4"
+	weapon="tech_lasers_1"
 	ftl=hyperdrive
 	
 	planet_name="Minbar Prime"

@@ -25,7 +25,7 @@ shadow = {
 
 	flags = { shadowstart_1 shadow_cpu }
 	
-	weapon="tech_lasers_3"
+	weapon="tech_lasers_1"
 	ftl=warp
 	
 	planet_name="Z'ha'dum"

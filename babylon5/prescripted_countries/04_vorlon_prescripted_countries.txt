@@ -23,7 +23,7 @@ vorlon = {
 
 	flags = { vorlonstart_1 vorlon_cpu }
 	
-	weapon="tech_plasma_1"
+	weapon="tech_lasers_1"
 	ftl=wormhole
 	
 	planet_name = "Vorlon Homeworld"
