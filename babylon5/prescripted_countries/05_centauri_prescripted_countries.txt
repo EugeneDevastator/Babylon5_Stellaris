@@ -37,12 +37,12 @@ centauri = {
 	
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_14.dds"
+			category="babylon5"
+			file="centauri.dds"
 		}
 		background={
 			category="backgrounds"
-			file="diagonal.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"dark_purple"
