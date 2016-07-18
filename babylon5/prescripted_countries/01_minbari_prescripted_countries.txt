@@ -36,8 +36,8 @@ minbari = {
 	
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_11.dds"
+			category="babylon5"
+			file="minbari.dds"
 		}
 		background={
 			category="backgrounds"
