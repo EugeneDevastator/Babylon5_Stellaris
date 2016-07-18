@@ -20,12 +20,12 @@ earthalliance = {
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_4.dds"
+			category="babylon5"
+			file="ea.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"indigo"
@@ -37,7 +37,7 @@ earthalliance = {
 	ruler={
 		gender=male
 		name="Luis Santiago"
-		portrait="human_male_01"
+		portrait="earthalliance_luis_santiago"
 		texture=0
 		hair=7
 		clothes=2
