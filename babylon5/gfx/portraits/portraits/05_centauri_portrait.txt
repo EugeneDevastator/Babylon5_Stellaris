@@ -1,5 +1,6 @@
 portraits = {
 	centauri_londo = { texturefile = "gfx/portraits/centauri/londo.dds"}
+	centauri_timov = { texturefile = "gfx/portraits/centauri/timov.dds"}
 #	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ.dds"}
 #	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil.dds"}
 #	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm.dds"}
@@ -8,7 +9,7 @@ portraits = {
 }
 portrait_groups = {
 	centauri = {
-		default = human_male_02
+		default = centauri_londo
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				trigger = {
@@ -23,7 +24,7 @@ portrait_groups = {
 					ruler = { gender = female }
 				}
 				portraits = {
-					human_female_02
+					centauri_timov
 				}
 			}
 			#set = {

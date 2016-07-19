@@ -39,7 +39,7 @@
 shadow_cpu = { 
 	type = ideologue
 	
-	aggressiveness = 5.0
+	aggressiveness = 3.0
 	trade_willingness = 0.0	
 	bravery = 0.8
 
