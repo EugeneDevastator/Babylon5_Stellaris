@@ -58,10 +58,10 @@
 		terraform_station = { }
 		observation_station = { }
 		outpost_station = {
-			random_names = {
-				"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider Bastion "Home Turf" Wide
-			}
-			sequential_name = "%O% Frontier Outpost"
+		#	random_names = {
+		#		"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider Bastion "Home Turf" Wide
+		#	}
+		#	sequential_name = "%O% Frontier Outpost"
 		}
 		
 		transport = {
@@ -215,14 +215,10 @@
 			
 			}
 			first_names_male = {
-				Diego Luis Pedro Joaquin José Emilio Eduardo Alejandro Carlos Fernando Francisco Julio "José Antonio" "José Manuel" Juan
-				"José María" Ignacio Manuel Pablo Miguel Ramón Raimundo Santiago Ricardo Marcelo Javier Gaspar Alfonso Lorenzo Enrique
-				Ernesto Gerardo Guillermo Jesús Salvadore Sergio Roberto Esteban
+				Branmer Ashan Sineval Kozzor Lovell
 			}
 			first_names_female = {
-				Hortensia Isabel Valentina Alejandra Alicia Antonia Carla Carmen Catalina Dolores Estefania Eva Fernanda Florencia 
-				Gabriela Grizelda Maria Lorena Magdalena Mercedes Miriam Paulina Sofia Yolanda Camila Luciana Valeria Mariana Daniela
-				Martina Julieta Antonella Renata Agustina Constanza Fabiana
+				Maya Deeron Ashala Herad Lenien 
 			}
 			second_names = {
 				Garcia Martinez Rodriguez Fernandez Sanchez Lopez Martin Perez Gonzalez Alvarez Gomez Diaz Dominguez Hernandez
@@ -230,13 +226,13 @@
 				"de Vargas" Ibanez Moralez Riveros Rosario Velazco Torres Quesada Saldana Salazar Ortega Ortiz Solano Romero
 			}
 			regnal_first_names_male = {
-				Londo Vir Antono Ricardo Javier Ernesto Gerardo
+				Neroon Lennier Dukhat Hedronn
 			}
 			regnal_first_names_female = {
-				Antonia Carla Carmen Catalina Dolores Martina Julieta Antonella Renata
+				Delenn Shal
 			}
 			regnal_second_names = {
-				Mollari Cartagia Cotto Turhan Refa Virini
+				Furlan Chudomo Mayan Kalain
 			}
 		}
 
