@@ -37,7 +37,7 @@ minbari = {
 	empire_flag={
 		icon={
 			category="babylon5"
-			file="minbari_flag.dds"
+			file="minbari_flag_1.dds"
 		}
 		background={
 			category="backgrounds"
