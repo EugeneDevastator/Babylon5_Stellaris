@@ -38,7 +38,7 @@ shadow = {
 	
 	empire_flag={
 		icon={
-			category="pointy"
+			category="babylon5"
 			file="shadow_flag_1.dds"
 		}
 		background={
