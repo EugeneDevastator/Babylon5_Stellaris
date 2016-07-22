@@ -5,8 +5,10 @@ earthalliance = {
 	species_plural="Humans"
 	species_class="MAM"
 	species_adjective="Human"
+	
 	species_bio= "The Earth Alliance was founded in 2085 in the aftermath of World War III. The founding nations made great gains in colonizing space by building bases on Luna and a colony on Mars by 2090.In the mid-22nd century, contact was made between the Earth Alliance and the Centauri Republic. The Centauri gave the Earth Alliance access to its technology in exchange for some trade agreements. Initially the Earth Alliance used Centauri jumpgates but soon began to build their own. The Earth Alliance experienced a great deal of growth soon after the introduction of new technologies. It began to expand across multiple systems, meeting many new species."
-	portrait="human"
+	
+	portrait="earthalliance"
 	name="Earth Alliance"
 	adjective="Terran"
 	government="direct_democracy"
@@ -37,7 +39,7 @@ earthalliance = {
 	ruler={
 		gender=male
 		name="Luis Santiago"
-		portrait="earthalliance_luis_santiago"
+		portrait="earthalliance_santiago"
 		texture=0
 		hair=7
 		clothes=2

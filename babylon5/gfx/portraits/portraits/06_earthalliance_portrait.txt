@@ -1,21 +1,21 @@
 portraits = {
 # Rulers
-	earthalliance_luchenko = { texturefile = "gfx/portraits/earthalliance/earthalliance_susanna_luchenko.dds"}
-	earthalliance_santiago = { texturefile = "gfx/portraits/earthalliance/earthalliance_luis_santiago.dds"}
-#	earthalliance_clark = { texturefile = "gfx/portraits/earthalliance/earthalliance_william_clark.dds"}
+	earthalliance_luchenko = { texturefile = "gfx/portraits/earthalliance/earthalliance_susanna_luchenko_1.dds"}
+	earthalliance_santiago = { texturefile = "gfx/portraits/earthalliance/earthalliance_luis_santiago_1.dds"}
+#	earthalliance_clark = { texturefile = "gfx/portraits/earthalliance/earthalliance_william_clark_1.dds"}
 
 # Leaders
-	earthalliance_ivanova = { texturefile = "gfx/portraits/earthalliance/earthalliance_susan_ivanova.dds"}
-	earthalliance_sheridan = { texturefile = "gfx/portraits/earthalliance/earthalliance_john_sheridan.dds"}
-	earthalliance_garibaldi = { texturefile = "gfx/portraits/earthalliance/earthalliance_michael_garibaldi.dds"}
-	earthalliance_franklin = { texturefile = "gfx/portraits/earthalliance/earthalliance_stephen_franklin.dds"}
+	earthalliance_ivanova = { texturefile = "gfx/portraits/earthalliance/earthalliance_susan_ivanova_1.dds"}
+	earthalliance_sheridan = { texturefile = "gfx/portraits/earthalliance/earthalliance_john_sheridan_1.dds"}
+	earthalliance_garibaldi = { texturefile = "gfx/portraits/earthalliance/earthalliance_michael_garibaldi_1.dds"}
+	earthalliance_franklin = { texturefile = "gfx/portraits/earthalliance/earthalliance_stephen_franklin_1.dds"}
 
 # Pops
-#	earthalliance_civ = { texturefile = "gfx/portraits/earthalliance/earthalliance_civ.dds"}
-#	earthalliance_mil = { texturefile = "gfx/portraits/earthalliance/earthalliance_mil.dds"}
-#	earthalliance_arm = { texturefile = "gfx/portraits/earthalliance/earthalliance_arm.dds"}
-#	earthalliance_gov = { texturefile = "gfx/portraits/earthalliance/earthalliance_gov.dds"}
-#	earthalliance_sci = { texturefile = "gfx/portraits/earthalliance/earthalliance_sci.dds"}
+#	earthalliance_civ = { texturefile = "gfx/portraits/earthalliance/earthalliance_civ_1.dds"}
+#	earthalliance_mil = { texturefile = "gfx/portraits/earthalliance/earthalliance_mil_1.dds"}
+#	earthalliance_arm = { texturefile = "gfx/portraits/earthalliance/earthalliance_arm_1.dds"}
+#	earthalliance_gov = { texturefile = "gfx/portraits/earthalliance/earthalliance_gov_1.dds"}
+#	earthalliance_sci = { texturefile = "gfx/portraits/earthalliance/earthalliance_sci_1.dds"}
 
 }
 portrait_groups = {
