@@ -1,0 +1,117 @@
+portraits = {
+# Rulers
+	earthalliance_luchenko = { texturefile = "gfx/portraits/earthalliance/earthalliance_susanna_luchenko_1.dds"}
+	earthalliance_santiago = { texturefile = "gfx/portraits/earthalliance/earthalliance_luis_santiago_1.dds"}
+#	earthalliance_clark = { texturefile = "gfx/portraits/earthalliance/earthalliance_william_clark_1.dds"}
+
+# Leaders
+	earthalliance_ivanova = { texturefile = "gfx/portraits/earthalliance/earthalliance_susan_ivanova_1.dds"}
+	earthalliance_sheridan = { texturefile = "gfx/portraits/earthalliance/earthalliance_john_sheridan_1.dds"}
+	earthalliance_garibaldi = { texturefile = "gfx/portraits/earthalliance/earthalliance_michael_garibaldi_1.dds"}
+	earthalliance_franklin = { texturefile = "gfx/portraits/earthalliance/earthalliance_stephen_franklin_1.dds"}
+
+# Pops
+#	earthalliance_civ = { texturefile = "gfx/portraits/earthalliance/earthalliance_civ_1.dds"}
+#	earthalliance_mil = { texturefile = "gfx/portraits/earthalliance/earthalliance_mil_1.dds"}
+#	earthalliance_arm = { texturefile = "gfx/portraits/earthalliance/earthalliance_arm_1.dds"}
+#	earthalliance_gov = { texturefile = "gfx/portraits/earthalliance/earthalliance_gov_1.dds"}
+#	earthalliance_sci = { texturefile = "gfx/portraits/earthalliance/earthalliance_sci_1.dds"}
+
+}
+portrait_groups = {
+	earthalliance = {
+		default = earthalliance_santiago
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					earthalliance_santiago
+					#earthalliance_clark
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					earthalliance_luchenko
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					human_female_01
+					human_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+				#	earthalliance_civ
+				#	earthalliance_mil
+				#	earthalliance_arm
+				#	earthalliance_gov
+				#	earthalliance_sci
+					human_female_01
+					human_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					earthalliance_ivanova
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					earthalliance_garibaldi
+					earthalliance_sheridan
+					earthalliance_franklin
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					earthalliance_luchenko
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					earthalliance_santiago
+				}
+			}
+		}
+	}
+}

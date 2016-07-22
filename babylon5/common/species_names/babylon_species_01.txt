@@ -3,8 +3,8 @@
 BBL = {
 	genericbbl = {
 		name = "Babylon 5 Nations"
-		plural = "Plural name"
-		home_planet = "Home plane"
+		plural = "Plural Name"
+		home_planet = "Home Planet"
 		home_system = "Home System"
 		name_list = "VORLON1"
 	}

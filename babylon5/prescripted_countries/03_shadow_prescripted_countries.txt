@@ -17,26 +17,29 @@ shadow = {
 	portrait = "shadow"
 	adjective = "Sha'den"
 	
+	species_bio = "The Shadows are insectoid hexapeds that resemble a cross between an Earth spider and praying mantis. The Shadows believe that for a race to evolve into their full potential, they must do so through a cycle of chaos; growth through pain and struggle, conflict and war. Weak races die. Strong races are made even stronger. With this they developed their First Principles: chaos through warfare; evolution through bloodshed; perfection through victory."
+	
 	government="martial_empire"
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_militarist"
 
 	flags = { shadowstart_1 shadow_cpu }
 	
-	weapon="tech_lasers_3"
+	weapon="tech_lasers_1"
 	ftl=warp
 	
-	planet_name="Za'ha'dum"
+	planet_name="Z'ha'dum"
 	planet_class="pc_desert"
-	system_name="Za'ha"
+	#Actual system of Shadow Homeworld 
+	system_name="Alpha Omega"
 	
 	graphical_culture="avian_01"
 	city_graphical_culture="arthropoid_01"
 	
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_5.dds"
+			category="babylon5"
+			file="shadow_flag_1.dds"
 		}
 		background={
 			category="backgrounds"

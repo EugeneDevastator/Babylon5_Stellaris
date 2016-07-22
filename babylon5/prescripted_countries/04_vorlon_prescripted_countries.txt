@@ -3,18 +3,19 @@ vorlon = {
 	spawn_enabled = always # yes / no / always
 	
 	name_list = "VORLON1"
-	ship_prefix = "VSV"
+	ship_prefix = ""
 	
 	species_name = "Vorlon"
 	species_plural = "Vorlons"
-	species_adjective = "Vorlan"
+	species_adjective = "Vorlon"
 	species_class = "MOL"
 	trait="trait_intelligent"
 	trait="trait_natural_physicists"
 	trait="trait_slow_breeders"
-	# portrait = "rep2"
 	portrait = "vorlon"
-	adjective = "Vorlan"
+	adjective = "Vorlon"
+	
+	species_bio = "As with all things Vorlon, next to nothing is known by non-Vorlons about the Empire's governmental structure. No mention is ever made of a specific governing body or head of state, although it is known to have existed in one form or another for at least a million years. It is worth noting that representatives of the Empire seem proficent at manipulating the beureaucratic structures and governmental systems of other states."
 	
 	government="ai_overlordship"
 	ethic="ethic_collectivist"
@@ -22,10 +23,10 @@ vorlon = {
 
 	flags = { vorlonstart_1 vorlon_cpu }
 	
-	weapon="tech_plasma_1"
+	weapon="tech_lasers_1"
 	ftl=wormhole
 	
-	planet_name = "Vor prime"
+	planet_name = "Vorlon Homeworld"
 	planet_class = "pc_nuked"
 	system_name = "Vorlon"
 	
@@ -34,8 +35,8 @@ vorlon = {
 	
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_21.dds"
+			category="babylon5"
+			file="vorlon_flag_1.dds"
 		}
 		background={
 			category="backgrounds"
@@ -48,16 +49,10 @@ vorlon = {
 			"null"
 		}
 	}
-	#leader = {
-	#	name = "Dolores Muwanga"
-	#	class = ruler
-	#	portrait = "human_female_05"
-	#	experience = 1200.0
-	#}
-	
+		
 	ruler={
 		gender=male
-		name="Kosh Naranek"
+		name="Kosh"
 		portrait="vorlon_kosh"
 		texture=0
 		hair=0

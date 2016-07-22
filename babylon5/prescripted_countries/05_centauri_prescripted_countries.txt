@@ -6,15 +6,16 @@ centauri = {
 	ship_prefix = "CSV"
 	
 	species_name = "Centauri"
-	species_plural = "Centari"
-	species_adjective = "Centarian"
+	species_plural = "Centauri"
+	species_adjective = "Centauri"
 	species_class = "MAM"
 	trait="trait_thrifty"
 	trait="trait_decadent"
 	trait="trait_communal"
-	# portrait = "rep2"
 	portrait = "centauri"
-	adjective = "Centari"
+	adjective = "Centauri"
+	
+	species_bio = "The Centauri Republic is a major galactic power and noted for being the first alien government with which Earth had open contact. The Republic is based on Centauri Prime but spans a number of other colonies and worlds. Despite its 'Republic' moniker, the Centauri Republic is a nominal constitutional monarchy headed by an imperial family. It is ruled by an emperor, who has enormous power in Centauri society, and all Centauri are taught to be deferential to the ruling monarch."
 	
 	government="despotic_empire"
 	ethic="ethic_collectivist"
@@ -28,19 +29,20 @@ centauri = {
 	
 	planet_name = "Centauri Prime"
 	planet_class="pc_continental"
-	system_name = "Alpha Centauri"
+	# Actual Centauri Homeworld Sector
+	system_name = "Sector 130"
 	
 	graphical_culture="arthropoid_01"
 	city_graphical_culture="mammalian_01"
 	
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_14.dds"
+			category="babylon5"
+			file="centauri_flag_1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="diagonal.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"dark_purple"

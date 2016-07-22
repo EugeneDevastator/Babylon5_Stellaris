@@ -1,6 +1,6 @@
 ﻿l_english:
 
- name_list_centauri1:0 "Centauri"
+ name_list_CENTAURI1:0 "Centauri"
  IS_SPECIES_CLASS_TRIGGER:0 "Is corresponding species class"
  
  FLAG_CATEGORY_centauri:0 "Centauri"
