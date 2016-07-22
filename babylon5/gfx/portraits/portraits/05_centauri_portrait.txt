@@ -1,11 +1,11 @@
 portraits = {
-	centauri_londo = { texturefile = "gfx/portraits/centauri/londo.dds"}
-	centauri_timov = { texturefile = "gfx/portraits/centauri/timov.dds"}
-#	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ.dds"}
-#	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil.dds"}
-#	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm.dds"}
-#	narn_gov = { texturefile = "gfx/portraits/narn/narn_gov.dds"}
-#	narn_sci = { texturefile = "gfx/portraits/narn/narn_sci.dds"}
+	centauri_londo = { texturefile = "gfx/portraits/centauri/centauri_londo_mollari_1.dds"}
+	centauri_timov = { texturefile = "gfx/portraits/centauri/centauri_timov_1.dds"}
+#	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ_1.dds"}
+#	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil_1.dds"}
+#	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm_1.dds"}
+#	narn_gov = { texturefile = "gfx/portraits/narn/narn_gov_1.dds"}
+#	narn_sci = { texturefile = "gfx/portraits/narn/narn_sci_1.dds"}
 }
 portrait_groups = {
 	centauri = {

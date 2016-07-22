@@ -1,11 +1,11 @@
 portraits = {
-	narn_gkar = { texturefile = "gfx/portraits/narn/gkar.dds"}
-	narn_natoth = { texturefile = "gfx/portraits/narn/natoth.dds"}
-#	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ.dds"}
-#	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil.dds"}
-#	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm.dds"}
-#	narn_gov = { texturefile = "gfx/portraits/narn/narn_gov.dds"}
-#	narn_sci = { texturefile = "gfx/portraits/narn/narn_sci.dds"}
+	narn_gkar = { texturefile = "gfx/portraits/narn/narn_gkar_1.dds"}
+	narn_natoth = { texturefile = "gfx/portraits/narn/natoth_1.dds"}
+#	narn_civ = { texturefile = "gfx/portraits/narn/narn_civ_1.dds"}
+#	narn_mil = { texturefile = "gfx/portraits/narn/narn_mil_1.dds"}
+#	narn_arm = { texturefile = "gfx/portraits/narn/narn_arm_1.dds"}
+#	narn_gov = { texturefile = "gfx/portraits/narn/narn_gov_1.dds"}
+#	narn_sci = { texturefile = "gfx/portraits/narn/narn_sci_1.dds"}
 }
 portrait_groups = {
 	narn = {

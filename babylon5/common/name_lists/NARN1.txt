@@ -43,12 +43,7 @@ NARN1 = {
 		observation_station = { 
 			"Kai'ya" "Rhi'zner" "J'Odor" "Shi'Iz" 
 		}
-		outpost_station = {
-		#	random_names = {
-		#		"Wings of G'Lan" "Ma'Kan"
-		#	}
-		#	sequential_name = "Narn Outpost %O%"
-		}
+		outpost_station = {}
 		
 		transport = {
 			"T'Lek" "T'Amoth" "T'Dalour" "T'Oma" "T'Dar" "T'Jent"
@@ -202,3 +197,4 @@ NARN1 = {
 		}
 	}
 }
+

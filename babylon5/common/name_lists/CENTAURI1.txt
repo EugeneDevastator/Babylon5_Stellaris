@@ -58,17 +58,12 @@
 		terraform_station = { }
 		observation_station = { }
 		outpost_station = {
-		#	random_names = {
-		#		"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider Bastion "Home Turf" Wide
-		#	}
-		#	sequential_name = "%O% Frontier Outpost"
+				"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider Bastion "Home Turf" Wide
 		}
 		
+		
 		transport = {
-			Xiphos Spatha Falchion Shashka Sica Spadroon Jian Dao Zhanmadao Makhaira Falcata Kopis Rhomphaia Falx Longsword Katzbalger Cinquedea Estoc Bolo 
-			Kilij Shamshir Kaskara Flyssa Takoba Yatagan Urumi Liuyedao Tachi Khanda Wodao Changdao Yanmaodao Miaodao Chokuto Tsurugi Odachi Wakizashi Uchigatana
-			Shikomizue Firangi Talwar Pata Kastane Macana Khopesh Acinaces Macuahuitl Belawa Nimcha Shotel Krabi Parang Klewang Surik Niabor Mandau Kampilan Gari 
-			Panabas
+			Xiphos Spatha Falchion Shashka Sica Spadroon Jian Dao Zhanmadao Makhaira Falcata Kopis Rhomphaia Falx Longsword Katzbalger Cinquedea Estoc Bolo Kilij Shamshir Kaskara Flyssa Takoba Yatagan Urumi Liuyedao Tachi Khanda Wodao Changdao Yanmaodao Miaodao Chokuto Tsurugi Odachi Wakizashi Uchigatana Shikomizue Firangi Talwar Pata Kastane Macana Khopesh Acinaces Macuahuitl Belawa Nimcha Shotel Krabi Parang Klewang Surik Niabor Mandau Kampilan Gari Panabas
 		}
 		
 		military_station_small = {}
@@ -76,22 +71,14 @@
 		military_station_medium = {}
 			
 		military_station_large = {
-			Victory Success Triumph Supremacy Superior Adventure Ascendancy Paramount Preponderous Exemplary Eximious
-			Acclaim Honor Renown Glory Superb Magnificence Majestic Splendor Paradigm Flawless Consummate Merit
-			Perfection Virtue Advantage Rectitude Incorruptible Integrity Justice Probity Prudence Purity Resolute
-			Dignity Distinction Excellence Faithful Discipline Recompense Retribution Requiem Courage Valor Gallant
-			Daring Constancy Perseverence Tenacity Sedulity Diligence Pertinacity Steadfast
+			Victory Success Triumph Supremacy Superior Adventure Ascendancy Paramount Preponderous Exemplary Eximious Acclaim Honor Renown Glory Superb Magnificence Majestic Splendor Paradigm Flawless Consummate Merit Perfection Virtue Advantage Rectitude Incorruptible Integrity Justice Probity Prudence Purity Resolute Dignity Distinction Excellence Faithful Discipline Recompense Retribution Requiem Courage Valor Gallant Daring Constancy Perseverence Tenacity Sedulity Diligence Pertinacity Steadfast
 		}
 		
 	}
 
 	fleet_names = {
 		#random_names = {
-		#	"Strike Force Manticore" "Strike Force Basilisk" "Strike Force Chimera" "Strike Force Minotaur" "Strike Force Gorgon" "Strike Force Dragon"
-		#	"Strike Force Wyvern" "Strike Force Enfield" "Strike Force Centaur" "Strike Force Pegasus" "Strike Force Kraken" "Strike Force Charybdis"
-		#	"Strike Force Cerberus" "Strike Force Cyclops" "Strike Force Griffin" "Strike Force Phoenix" "Strike Force Scylla" "Strike Force Titan"
-		#	"Strike Force Hydra" "Strike Force Werewolf" "Strike Force Behemoth" "Strike Force Medusa" "Strike Force Sphinx" "Strike Force Hippogriff"
-		#	"Strike Force Garuda"
+		#"Strike Force Manticore" "Strike Force Basilisk" "Strike Force Chimera" "Strike Force Minotaur" "Strike Force Gorgon" "Strike Force Dragon" "Strike Force Wyvern" "Strike Force Enfield" "Strike Force Centaur" "Strike Force Pegasus" "Strike Force Kraken" "Strike Force Charybdis" "Strike Force Cerberus" "Strike Force Cyclops" "Strike Force Griffin" "Strike Force Phoenix" "Strike Force Scylla" "Strike Force Titan" "Strike Force Hydra" "Strike Force Werewolf" "Strike Force Behemoth" "Strike Force Medusa" "Strike Force Sphinx" "Strike Force Hippogriff" "Strike Force Garuda"
 		#}
 		sequential_name = "Strike Force %C%"
 	}
@@ -179,9 +166,8 @@
 		
 		pc_continental = {
 			names = {
-				Destiny Bastion Citadel Acropolis Delphi Harmony Dawnlight Myndos Thebes Camelot Arcadia Abbassus Ashur
+				Destiny Bastion Citadel Acropolis Delphi Harmony Dawnlight Myndos Thebes Camelot Arcadia Abbassus Ashur "Ragesh III" 
 			}
-		#	sequential_name = "Ragesh %C%"
 		}
 		
 		pc_gaia = {
