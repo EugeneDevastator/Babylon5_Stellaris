@@ -1,6 +1,6 @@
 ﻿l_english:
 
- name_list_centauri1:0 "Centauri"
+ name_list_CENTAURI1:0 "Centauri"
  IS_SPECIES_CLASS_TRIGGER:0 "Is corresponding species class"
  
  FLAG_CATEGORY_centauri:0 "Centauri"
@@ -13,5 +13,5 @@
  CEN:0 "centauri"
 
  personality_centauri_cpu:0 "Traders of the stars"
- personality_centauri_cpu_desc:0 "Money can buy everything. You can pay enough to become a centauri yourself"
+ personality_centauri_cpu_desc:0 "Money can buy everything. You can pay enough to become a Centauri yourself"
 

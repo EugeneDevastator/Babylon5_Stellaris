@@ -8,6 +8,7 @@ narn = {
 	species_name = "Narn"
 	species_plural = "Narns"
 	species_adjective = "Narn"
+	species_bio = "Narns were once a peaceful and agrarian people, though after a century of slavery under the Centauri, the once peaceful people had become bitter and hostile, turning more to their warrior traditions than they once did. Even before the Centauri occupation, life on Narn was hard and often very short, out of this grew the tradition of giving newborn pouchlings temporary names until the age of ten, when he or she decides which of their religions to follow and to choose their 'true name' from that faith. Narn pride themselves on physical perfection and even a minor disability such as poor eyesight is considered a source of great shame."
 	species_class = "REP"
 	trait="trait_agrarian"
 	trait="trait_strong"
@@ -36,8 +37,8 @@ narn = {
 	
 	empire_flag={
 		icon={
-			category="blocky"
-			file="flag_blocky_2.dds"
+			category="babylon5"
+			file="narn_flag_1.dds"
 		}
 		background={
 			category="backgrounds"
@@ -55,7 +56,7 @@ narn = {
 	ruler={
 		gender=male
 		name="G'kar of G'Quan"
-		portrait="narn_gkar"
+		portrait= narn_gkar_1
 		texture=0
 		hair=0
 		clothes=0
